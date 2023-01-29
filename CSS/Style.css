@@ -204,3 +204,11 @@ text-decoration: none;
 flex: right;
 margin-top: 23.13px;
 }
+
+
+@media  screen and (max-width:1023) {
+    .image1{
+        max-width:100%;
+    }
+    
+}
