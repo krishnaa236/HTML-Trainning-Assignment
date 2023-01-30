@@ -248,7 +248,7 @@ margin-top: 23.13px;
     height: 280px;
     background: transparent url('../images/hero-image.png') 30% 0% no-repeat padding-box;
     border: 10px solid #FFFFFF;
-    left: 4vh;
+    left: 14vh;
     top: 20px;
     
     float: none;
@@ -274,6 +274,10 @@ margin-top: 23.13px;
         float: none;
         display: grid;
         
+    }
+
+    .container{
+       margin-left: 50px;
     }
     /*input.username{
         width: 380px;
@@ -344,9 +348,8 @@ margin-bottom: 12.5px;
     width: 100px;
     height: 37px;
 }
-.member , .member1{
-    margin-top: 15px;
-}
+
+
 }
 @media  screen and (max-width:360px) {
     .image1{
@@ -356,11 +359,58 @@ margin-bottom: 12.5px;
     background: transparent url('../images/hero-image.png') 30% 0% no-repeat padding-box;
     border: 10px solid #FFFFFF;
     top: 30px;
+    left: 4vh;
     }
     .maindiv {
         width: 90%;
         background-color: #FAFAFA;
     }
-
+    .container{
+        margin-left: 10px;
+    }
+    img.img2{
+        width: 160px;
+    }
+    input.username{
+        width: 240px;
+        height: 7px;
+    }
+    .password{
+        width: 240px;
+        height: 7px;
+    }
+    
+    .container{
+        
+        position: relative;
+        left: 30px;
+        float: left;
+        top: 10px;
+    }
+    .img2{
+        width: 200px;
+        height: 88px;
+    }
+    .tagline{
+    margin-top: 0px;
+    font-size: 22px;
+    width: 260px;
+    text-align: justify;
+    }
+    span{
+    font-size: 25px;
+    margin-bottom: 12.5px;
+    }
+    .forgotpassword{
+        margin-left: 55px;
+    }
+    .loginpara{
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    .button1{
+        width: 100px;
+        height: 37px;
+    }
    
 }
