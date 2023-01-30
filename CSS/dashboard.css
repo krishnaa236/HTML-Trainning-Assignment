@@ -191,6 +191,7 @@ opacity: 1;
 }
 .main{
     display: flex;
+   
 }
 .sidebar{
     float: left;
@@ -334,7 +335,7 @@ font-style: roboto;
 
 .main{
     background-color: #FAFAFA;
-    width: max-content;
+   /* width:max-content;*/
 }
 .item1{
     display: flex;
