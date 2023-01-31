@@ -1,0 +1,186 @@
+.topnav1 .topnav .img1{
+    width: 10px;
+height: 8px;
+margin-top: 29px;
+margin-left:10px;
+margin-bottom: 34px;
+}
+.topnav1{
+height: 60px;
+}
+.topnav1 .topnav .img2{
+    width: 80px;
+height: 16px;
+margin-top: 25px;
+margin-left:5px;
+margin-bottom: 34px;
+}
+.topnav1 .topnav .img3{
+margin-top: 28px;
+margin-left: 10px;
+margin-bottom: 32.64px;
+width: 16px;
+height: 16px;
+}
+.topnav1 .topnav .img4{
+/* Layout Properties */
+margin-top: 23px;
+margin-left: 140px;
+margin-bottom: 30.65px;
+width: 14px;
+height: 21px;
+}
+
+.topnav1 .topnav .search{
+margin-top: 23px;
+margin-left: 8px;
+margin-bottom: 30.53px;
+width: 49px;
+height: 21px;
+font-size: 14px;
+}
+
+.topnav1 .topnav .img5{
+margin-top: 22px;
+margin-left: 10px;
+margin-bottom: 18px;
+top: 18px;
+left: 1368px;
+width: 22px;
+height: 22px;
+}
+
+.topnav1 .topnav .img6{
+margin-top: 28px;
+margin-left: 5px;
+margin-bottom: 36.66px;
+width: 10px;
+height: 6px;
+}
+
+.topnav1 .topnav .pname{
+margin-top: 25px;
+margin-left: 10px;
+margin-bottom: 31.07px;
+width: 48px;
+height: 10px;
+font-size: 12px;}
+
+
+
+
+
+<script>
+  /*var input = document.getElementById("myInput");
+
+  // Execute a function when the user presses a key on the keyboard
+  input.addEventListener("keypress", function(event) {
+    // If the user presses the "Enter" key on the keyboard
+    if (event.key === "Enter") {
+      // Cancel the default action, if needed
+      event.preventDefault();
+      // Trigger the button element with a click
+      document.getElementById("myBtn").click();
+    }
+  });*/
+
+
+  function myFunction(){
+    var x = document.getElementById("myInput");
+      if(x.style.display==="none"){
+        x.style.display==="block";
+      }
+      else{
+        x.style.display==="none";
+      }
+    
+    
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.topnav1 .topnav .img1{
+    width: 8px;
+height: 7px;
+margin-top: 29px;
+margin-left:10px;
+margin-bottom: 34px;
+}
+.topnav1{
+height: 60px;
+}
+.topnav1 .topnav .img2{
+    width: 70px;
+height: 14px;
+margin-top: 25px;
+margin-left:5px;
+margin-bottom: 34px;
+}
+.topnav1 .topnav .img3{
+margin-top: 27px;
+margin-left: 10px;
+margin-bottom: 32.64px;
+width: 10px;
+height: 10px;
+}
+.topnav1 .topnav .img4{
+/* Layout Properties */
+margin-top: 21px;
+margin-left: 100px;
+margin-bottom: 30.65px;
+width: 12px;
+height: 21px;
+}
+
+.topnav1 .topnav .search{
+margin-top: 22px;
+margin-left: 8px;
+margin-bottom: 30.53px;
+width: 40px;
+height: 18px;
+font-size: 12px;
+}
+
+.topnav1 .topnav .img5{
+margin-top: 22px;
+margin-left: 10px;
+margin-bottom: 18px;
+top: 18px;
+left: 1368px;
+width: 18px;
+height: 18px;
+}
+
+.topnav1 .topnav .img6{
+margin-top: 26px;
+margin-left: 0px;
+margin-bottom: 36.66px;
+width: 10px;
+height: 6px;
+}
+
+.topnav1 .topnav .pname{
+margin-top: 22px;
+margin-left: 10px;
+margin-bottom: 31.07px;
+width: 38px;
+height: 10px;
+font-size: 8px;}

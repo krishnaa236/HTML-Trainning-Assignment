@@ -5,7 +5,7 @@ body{
 .topnav1{
     top: 0px;
     left: 0px;
-    width: 1560px;
+    width: 1260px;
     height: 80px;
     /* UI Properties */
     background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -86,7 +86,7 @@ opacity: 1;
 
     .topnav1 .topnav .img5{
         margin-top: 18px;
-    margin-left: 52.28px;
+    margin-left: 38.28px;
     margin-bottom: 18px;
         top: 18px;
     left: 1368px;
@@ -113,7 +113,7 @@ opacity: 1;
     }
     .topnav1 .topnav .img6{
         margin-top: 37.5px;
-        margin-left: 14.54px;
+        margin-left: 34.54px;
         margin-bottom: 36.66px;
         width: 10px;
         height: 6px;
@@ -191,6 +191,7 @@ opacity: 1;
    }
    .main{
        display: flex;
+       
    }
    .sidebar{
        float: left;
@@ -875,3 +876,350 @@ opacity: 1;
 height: 43px;
 margin-left: 30px;
 }
+
+@media  screen and (max-width:1023px)
+{
+    .topnav1 .topnav .img4 {
+       
+        margin-left: 430px;
+        
+}
+body{
+    width: 1020px;
+}
+.topnav1{
+    width: 1023px;
+}
+.topnav1 .topnav .pname {
+   
+    width: 70px;
+    
+}
+.topnav1 .topnav .img4{
+    margin-left: 410px;
+}
+.sidebar{
+    display: none;
+}
+.topnav1 .topnav .img6{
+    margin-left: 1px;
+}
+.container2, .container3{
+    width: 900px;
+}
+.item1, .item3 {
+    width: 90%;
+}
+.dropdown{
+    width: 92.5%;
+}
+.item4{width: 810px;
+    margin-left: 0px;
+}
+
+.item5{
+    width: 79.3%;
+    margin-left: 0px;
+   
+}
+.item6{
+    width: 810px;
+    margin-left: 0px;
+    margin-top: 35px;
+}
+.item7{
+    width: 830px;
+    margin-left: 0px;
+}
+.forms{
+    grid: none;
+    
+}
+.form2{
+    width: 810px;
+    margin-left: 30px;
+}
+
+.item9{
+    margin-left: 0px;
+    margin-top: 15px;
+    
+}
+.item8{
+    margin-left: 0px;
+    
+}
+.item10{
+    margin-left: 90px;
+    
+}
+.item11{
+    margin-left: 0px;
+    width: 20%;
+}
+.item12{
+   
+    width: 20%;
+}
+.item13{
+   
+    width: 20%;
+}
+.item14{
+   
+    width: 20.2%;
+}
+.span11{
+    margin-left: 0px;
+}
+.span12{
+    margin-left: 130px;
+}
+.snacbar{
+    width: 850px;
+    margin-left: 30px;
+   display: grid;
+   grid-template-columns: 400px 400px;
+}
+.error{
+    margin-left: 0px;
+    width: 400px;
+}
+.info{
+    width: 400px;
+    margin-left: 30px;
+}
+.warning{
+    margin-left: 0px;
+    width: 400px;
+}
+.success{
+    width: 400px;
+    margin-left: 30px;
+}
+.hr1{
+    width: 830px;
+}
+.lorem{
+    width: 830px;
+}
+}
+
+@media  screen and (max-width:900px){
+    .topnav1 .topnav .img2 {
+        margin-top: 30px;
+        margin-left: 12px;
+        margin-bottom: 25px;
+        width: 100px;
+        height: 20px;
+        opacity: 1;}
+        .topnav1 .topnav .search .img3 {
+            
+            margin-top: 34px;
+            margin-left: 25px;
+            margin-bottom: 32.64px;
+            width: 13px;
+            height: 13px;
+           
+            opacity: 1;
+        }
+        .topnav1{
+            width: 900px;
+        }
+        .topnav1 .topnav .search {
+            margin-top: 28.47px;
+            margin-left: 10px;
+            margin-bottom: 30.53px;
+            width: 49px;
+            height: 21px;
+            text-align: left;
+            font: normal normal normal 16px/21px Roboto;
+            letter-spacing: 0px;
+            color: #000000;
+            opacity: 1;
+        }
+        .topnav1 .topnav .img4 {
+            margin-top: 28.28px;
+            margin-left: 400px;
+            margin-bottom: 30.65px;
+            width: 16px;
+            height: 15spx;
+            /* background: #3E3E3E 0% 0% no-repeat padding-box; */
+            opacity: 1;}
+            .topnav1 .topnav .img5 {
+                margin-top: 27px;
+                margin-left: 18px;
+                margin-bottom: 18px;
+                width: 27px;
+                height: 27px;
+                
+                opacity: 1;
+            }
+
+            .topnav1 .topnav .pname {
+                margin-top: 27.97px;
+                margin-left: 12px;
+                margin-bottom: 31.07px;
+                width: 55px;
+                text-align: left;
+                font-size: 14px;
+                /* font: normal normal normal 16px/21px Roboto; */
+                letter-spacing: 0px;
+                color: #000000;
+                opacity: 1;
+            }
+            .topnav1 .topnav .img6 {
+                margin-top: 37.5px;
+                margin-left: 5px;
+                width: 10px;
+                height: 6px;
+                /* background: #000000 0% 0% no-repeat padding-box; */
+                opacity: 1;
+            }
+        }
+
+        @media  screen and (max-width:479px){
+            .topnav1{
+                width: 479px;
+            }
+            .topnav1 .topnav .img1{
+                width: 10px;
+            height: 8px;
+            margin-top: 29px;
+            margin-left:10px;
+            margin-bottom: 34px;
+            }
+            .topnav1{
+            height: 60px;
+            }
+            .topnav1 .topnav .img2{
+                width: 80px;
+            height: 16px;
+            margin-top: 25px;
+            margin-left:5px;
+            margin-bottom: 34px;
+            }
+            .topnav1 .topnav .img3{
+            margin-top: 28px;
+            margin-left: 10px;
+            margin-bottom: 32.64px;
+            width: 16px;
+            height: 16px;
+            }
+            .topnav1 .topnav .img4{
+            /* Layout Properties */
+            margin-top: 23px;
+            margin-left: 140px;
+            margin-bottom: 30.65px;
+            width: 14px;
+            height: 21px;
+            }
+            
+            .topnav1 .topnav .search{
+            margin-top: 23px;
+            margin-left: 8px;
+            margin-bottom: 30.53px;
+            width: 49px;
+            height: 21px;
+            font-size: 14px;
+            }
+            
+            .topnav1 .topnav .img5{
+            margin-top: 22px;
+            margin-left: 10px;
+            margin-bottom: 18px;
+            top: 18px;
+            left: 1368px;
+            width: 22px;
+            height: 22px;
+            }
+            
+            .topnav1 .topnav .img6{
+            margin-top: 28px;
+            margin-left: 5px;
+            margin-bottom: 36.66px;
+            width: 10px;
+            height: 6px;
+            }
+            
+            .topnav1 .topnav .pname{
+            margin-top: 25px;
+            margin-left: 10px;
+            margin-bottom: 31.07px;
+            width: 48px;
+            height: 10px;
+            font-size: 12px;}
+            }
+            
+            @media  screen and (max-width:393px){
+                .topnav1{
+                    width: 360px;
+                }
+                .topnav1 .topnav .img1{
+                    width: 8px;
+            height: 7px;
+            margin-top: 29px;
+            margin-left:10px;
+            margin-bottom: 34px;
+                }
+             .topnav1{
+                height: 60px;
+             }
+                .topnav1 .topnav .img2{
+                    width: 70px;
+            height: 14px;
+            margin-top: 25px;
+            margin-left:5px;
+            margin-bottom: 34px;
+                }
+                .topnav1 .topnav .img3{
+                margin-top: 27px;
+                margin-left: 10px;
+                margin-bottom: 32.64px;
+                width: 10px;
+                height: 10px;
+            }
+            .topnav1 .topnav .img4{
+                /* Layout Properties */
+                margin-top: 21px;
+                margin-left: 100px;
+                margin-bottom: 30.65px;
+            width: 12px;
+            height: 21px;
+            }
+            
+            .topnav1 .topnav .search{
+                margin-top: 22px;
+                margin-left: 8px;
+                margin-bottom: 30.53px;
+            width: 40px;
+            height: 18px;
+            font-size: 12px;
+            }
+            
+            .topnav1 .topnav .img5{
+                margin-top: 22px;
+            margin-left: 10px;
+            margin-bottom: 18px;
+                top: 18px;
+            left: 1368px;
+            width: 18px;
+            height: 18px;
+            }
+            
+            .topnav1 .topnav .img6{
+                margin-top: 26px;
+            margin-left: 0px;
+            margin-bottom: 36.66px;
+            width: 10px;
+            height: 6px;
+            }
+            
+            .topnav1 .topnav .pname{
+                margin-top: 22px;
+            margin-left: 10px;
+            margin-bottom: 31.07px;
+            width: 38px;
+            height: 10px;
+            font-size: 8px;}
+            }

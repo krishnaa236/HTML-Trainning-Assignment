@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="CSS/dashboard.css">
-  <link rel="stylesheet" href="CSS/dashboard1.css">
+  <!--<link rel="stylesheet" href="CSS/dashboard1.css">-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
@@ -15,9 +15,9 @@
 <body>
 
   <header>
-    <nav class="topnav1">
+    <nav class="topnav1" id="topnav1">
       <div class="topnav">
-        <img class="img1" src="images/menu-bar.svg" alt="404 not found">
+        <img class="img1" src="images/menu-bar.svg" onclick="showMenu()" alt="404 not found">
         <img class="img2" src="images/header-logo.svg" alt="">
         <img class="img3" src="images/search-icon.svg" alt="">
         <p class="search">search</p>
@@ -71,9 +71,9 @@
   -->
 
   <main>
-    <div class="main">
-      <div class="sidebar">
-        <div class="sidecontainer">
+    <div class="main" id="main">
+      <div class="sidebar" id="myInput">
+        <div class="sidecontainer" >
 
           <div class="dashboard">
             <img src="images/dashboard-active.svg" alt="" class="img7">
@@ -152,8 +152,8 @@
 
 
           
-          <div class="item">
-            <div class="items">
+          <div class="item class3">
+            <div class="items class3">
               <img src="images/total-product.svg" alt="" class="img14">
               <div class="item11">
                 <div class="span">
@@ -169,8 +169,8 @@
 
 
 
-          <div class="item">
-            <div class="items">
+          <div class="item class2">
+            <div class="items class2">
               <img src="images/dollar-filled.svg" alt="" class="img14">
               <div class="item11">
                 <div class="span">
@@ -186,8 +186,8 @@
 
 
 
-          <div class="item">
-            <div class="items">
+          <div class="item class1">
+            <div class="items class1">
               <img src="images/money-bag.svg" alt="" class="img14">
               <div class="item11">
                 <div class="span">
@@ -235,7 +235,7 @@
           </div>
         </div>
 
-        <div class="table1">
+        <div class="table1 table-responsive">
           <div class="table11">
             <div class="view">
               <p class="invoices">Invoices</p>
@@ -344,6 +344,8 @@
     </div>
     </div>
   </main>
+  
+  
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
     crossorigin="anonymous"></script>
@@ -356,3 +358,18 @@
 </body>
 
 </html>
+<script>
+  const myInput = document.getElementById("myInput");
+  function showMenu(){
+      if(myInput.style.display != "none"){
+        myInput.style.display = "none";
+          document.getElementById("main").style.gridTemplateColumns = "auto";
+      }   
+      else{
+          myInput.style.display = "block";
+          document.getElementById("topnav1").style.width = "100vw"
+          document.getElementById("main").style.gridTemplateColumns = "auto auto";
+      }
+  }
+
+</script>
