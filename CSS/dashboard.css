@@ -696,6 +696,9 @@ float: right;
 .topnav1{
     width: 1023px;
 }
+.main{
+    width: 1022px;
+}
 }
 
 @media  screen and (max-width:900px){
@@ -794,10 +797,16 @@ float: right;
             .table1.table-responsive {
                 width: 720px;
             }
+            .main{
+                width: 900px;
+            }
 
 }
 @media  screen and (max-width:479px){
     .topnav1{
+        width: 479px;
+    }
+    .main{
         width: 479px;
     }
     .topnav1 .topnav .img1{
@@ -1055,6 +1064,9 @@ margin-left: 40px;
 .h11{
     font-size: 22px;
     margin-top: 22px;
+}
+.main{
+    width: 350px;
 }
 }
 
