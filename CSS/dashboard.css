@@ -73,7 +73,7 @@ opacity: 1;
     .topnav1 .topnav .img4{
         /* Layout Properties */
         margin-top: 28.28px;
-        margin-left: 924.2px;
+        margin-left: 950.2px;
         margin-bottom: 30.65px;
     width: 22px;
     height: 21px;
@@ -87,10 +87,10 @@ opacity: 1;
 
     .topnav1 .topnav .img5{
         margin-top: 18px;
-    margin-left: 52.28px;
+    margin-left: 22px;
     margin-bottom: 18px;
-        top: 18px;
-    left: 1368px;
+        /*top: 18px;
+    left: 1368px;*/
     width: 44px;
     height: 44px;
     /* UI Properties */
@@ -102,8 +102,8 @@ opacity: 1;
         margin-top: 27.97px;
     margin-left: 12px;
     margin-bottom: 31.07px;
-    width: 68px;
-    height: 21px;
+    width: 80px;
+    /*height: 21px;*/
     /* UI Properties */
     text-align: left;
     font: normal normal normal 16px/21px Roboto;
@@ -567,7 +567,7 @@ tr{
     margin-top: 50px;
     margin-left: 50px;
     width: 1100spx;
-height: 560spx;
+height: 560px;
 /* UI Properties */
 background: #FFFFFF 0% 0% no-repeat padding-box;
 border-radius: 5px;
@@ -637,6 +637,144 @@ float: right;
         text-decoration: none;
         
 }
+@media  screen and (max-width:479px){
+    .topnav1 .topnav .img1{
+        width: 10px;
+height: 8px;
+margin-top: 29px;
+margin-left:10px;
+margin-bottom: 34px;
+    }
+ .topnav1{
+    height: 60px;
+ }
+    .topnav1 .topnav .img2{
+        width: 80px;
+height: 16px;
+margin-top: 25px;
+margin-left:5px;
+margin-bottom: 34px;
+    }
+    .topnav1 .topnav .img3{
+    margin-top: 28px;
+    margin-left: 10px;
+    margin-bottom: 32.64px;
+    width: 16px;
+    height: 16px;
+}
+.topnav1 .topnav .img4{
+    /* Layout Properties */
+    margin-top: 23px;
+    margin-left: 140px;
+    margin-bottom: 30.65px;
+width: 14px;
+height: 21px;
+}
 
+.topnav1 .topnav .search{
+    margin-top: 23px;
+    margin-left: 8px;
+    margin-bottom: 30.53px;
+width: 49px;
+height: 21px;
+font-size: 14px;
+}
+
+.topnav1 .topnav .img5{
+    margin-top: 22px;
+margin-left: 10px;
+margin-bottom: 18px;
+    top: 18px;
+left: 1368px;
+width: 22px;
+height: 22px;
+}
+
+.topnav1 .topnav .img6{
+    margin-top: 28px;
+margin-left: 5px;
+margin-bottom: 36.66px;
+width: 10px;
+height: 6px;
+}
+
+.topnav1 .topnav .pname{
+    margin-top: 25px;
+margin-left: 10px;
+margin-bottom: 31.07px;
+width: 48px;
+height: 10px;
+font-size: 12px;}
+}
+@media  screen and (max-width:393px){
+    .topnav1 .topnav .img1{
+        width: 8px;
+height: 7px;
+margin-top: 29px;
+margin-left:10px;
+margin-bottom: 34px;
+    }
+ .topnav1{
+    height: 60px;
+ }
+    .topnav1 .topnav .img2{
+        width: 70px;
+height: 14px;
+margin-top: 25px;
+margin-left:5px;
+margin-bottom: 34px;
+    }
+    .topnav1 .topnav .img3{
+    margin-top: 27px;
+    margin-left: 10px;
+    margin-bottom: 32.64px;
+    width: 10px;
+    height: 10px;
+}
+.topnav1 .topnav .img4{
+    /* Layout Properties */
+    margin-top: 21px;
+    margin-left: 100px;
+    margin-bottom: 30.65px;
+width: 12px;
+height: 21px;
+}
+
+.topnav1 .topnav .search{
+    margin-top: 22px;
+    margin-left: 8px;
+    margin-bottom: 30.53px;
+width: 40px;
+height: 18px;
+font-size: 12px;
+}
+
+.topnav1 .topnav .img5{
+    margin-top: 22px;
+margin-left: 10px;
+margin-bottom: 18px;
+    top: 18px;
+left: 1368px;
+width: 18px;
+height: 18px;
+}
+
+.topnav1 .topnav .img6{
+    margin-top: 26px;
+margin-left: 0px;
+margin-bottom: 36.66px;
+width: 10px;
+height: 6px;
+}
+
+.topnav1 .topnav .pname{
+    margin-top: 22px;
+margin-left: 10px;
+margin-bottom: 31.07px;
+width: 38px;
+height: 10px;
+font-size: 8px;}
+
+}
 
 
